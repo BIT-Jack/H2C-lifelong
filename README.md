@@ -16,8 +16,8 @@ The processed data is available in this link for [download](https://drive.google
  pip install -r requirements.txt
 ```
 ## Configurations
-1. Before running codes, please revise "**root_dir**" in "_./utils/conf.py_" to your local paths.
-2. Parameters for the networks can be also revised in "_./utils/config.py_".
+1. Before running codes, please revise "**root_dir**" in "_./utils/args_loading.py_" to your local paths.
+2. Parameters for the networks can be also revised in "_./utils/args_loading.py_".
 
 
 ## Key Parameters for running the experiments
