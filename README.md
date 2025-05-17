@@ -2,9 +2,12 @@
 # Introduction
 Official codes of paper **_H2C:Hippocampal Circuit-inspired Contiual Learning for Lifelong Trajectory Prediction in Autonomous Driving_**, which has been submitted to **_IEEE Transactions on Pattern Analysis and Machine Intelligence （IEEE T-PAMI）_**. (Under review)
 
-# Processed Data
+# Dataset
+## Original Dataset
 The experiments in this work are based on [INTERACTION dataset](https://interaction-dataset.com/).
-The processed data is available in this link for [download](https://drive.google.com/drive/folders/1roEeNQJFz777DbPEMf21R3j2BQdRKecp?usp=drive_link).
+## Processed Data
+- The processed data is available in [Google Drive](https://drive.google.com/drive/folders/1roEeNQJFz777DbPEMf21R3j2BQdRKecp?usp=drive_link).
+- Please download the processed data in the direction ``` ./cl_dataset/``` for running the experiments.
 
 # Implementations
 ## Enviroment
@@ -16,8 +19,8 @@ The processed data is available in this link for [download](https://drive.google
  pip install -r requirements.txt
 ```
 ## Configurations
-1. Before running codes, please revise "**root_dir**" in "_./utils/args_loading.py_" to your local paths.
-2. Parameters for the networks can be also revised in "_./utils/args_loading.py_".
+1. Before running codes, please revise ```root_dir``` in ```_./utils/args_loading.py_``` to your local paths.
+2. Parameters for the networks can be also revised in ```_./utils/args_loading.py_```.
 
 
 ## Key Parameters for running the experiments
