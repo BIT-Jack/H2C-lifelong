@@ -4,7 +4,7 @@ Official codes of paper **_H2C:Hippocampal Circuit-inspired Contiual Learning fo
 
 # Dataset
 ## Original Dataset
-The experiments in this work are based on [INTERACTION dataset](https://interaction-dataset.com/).
+The experiments in this study are based on [INTERACTION dataset](https://interaction-dataset.com/).
 ## Processed Data
 - The processed data is available in [Google Drive](https://drive.google.com/drive/folders/1roEeNQJFz777DbPEMf21R3j2BQdRKecp?usp=drive_link).
 - Please download the processed data in the direction ``` ./cl_dataset/``` for running the experiments.
