@@ -34,6 +34,7 @@ The experiments in this work are based on [INTERACTION dataset](https://interact
 
 # Codes
 ## File Structure
+```text
 ├── README.md
 ├── cl_data_stream
 │   ├── joint_dataset.py
@@ -79,7 +80,7 @@ The experiments in this work are based on [INTERACTION dataset](https://interact
     ├── dictionary.py
     ├── extract_original_tv_info.py
     └── map_vis_without_lanelet.py
-    
+```
 - Main functions for training and testing are the python scripts in the root direction.
 - The folder ```cl_model``` contains the proposed H2C and compared CL baselines in experiments.
 - The folder ```traj_predictor``` includes the files to construct the trajectory prediction model.
