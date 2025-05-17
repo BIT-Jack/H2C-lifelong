@@ -91,3 +91,4 @@ After adding the Executable Permissions to the provided bash file (_bash_trainin
 ```
 ./bash_training_and_test.sh
 ```
+
