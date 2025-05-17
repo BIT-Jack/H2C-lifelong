@@ -24,12 +24,12 @@ The experiments in this study are based on [INTERACTION dataset](https://interac
 
 
 ## Key Parameters for running the experiments
-1. **--model**: the method you want to train and test. 
-2. **--buffer_size**: the memory size of the continual learning methods to run, and set as 0 when using the vanilla method.
-3. **--dataset**: set as "seq-interaction" when continual training, set as "joint-interaction" when joint training.
-4. **--train_task_num**: the number of tasks in continual training.
-5. **--debug_mode**: _True_ or _1_ when you are debugging, only a few batches of samples will be used in each task for a convenient check. _False_ or _0_ in the formal training.  
-6. **--num_tasks**: the number of continual tasks for testing.
+1. ```--model```: the method you want to train and test. 
+2. ```--buffer_size```: the memory size of the continual learning methods to run, and set as 0 when using the vanilla method.
+3. ```--dataset```: set as "seq-interaction" when continual training, set as "joint-interaction" when joint training.
+4. ```--train_task_num```: the number of tasks in continual training.
+5. ```--debug_mode```: _True_ or _1_ when you are debugging, only a few batches of samples will be used in each task for a convenient check. _False_ or _0_ in the formal training.  
+6. ```--num_tasks```: the number of continual tasks for testing.
 
 
 # Codes
