@@ -32,8 +32,60 @@ The experiments in this work are based on [INTERACTION dataset](https://interact
 6. **--num_tasks**: the number of continual tasks for testing.
 
 
-# Running
-## Simple usage of the bash file
+# Codes
+## File Structure
+├── README.md
+├── cl_data_stream
+│   ├── joint_dataset.py
+│   ├── seq_dataset.py
+│   └── traj_dataset.py
+├── cl_model
+│   ├── __init__.py
+│   ├── agem.py
+│   ├── continual_model.py
+│   ├── der.py
+│   ├── h2c.py
+│   ├── gss.py
+│   └── vanilla.py
+├── experiments
+│   ├── joint_training.py
+│   ├── seq_training_all_task.py
+│   └── testing_1_task.py
+├── test_CL.py
+├── test_joint.py
+├── train_CL.py
+├── train_joint.py
+├── traj_predictor
+│   ├── __init__.py
+│   ├── baselayers.py
+│   ├── decoder.py
+│   ├── encoder.py
+│   ├── evaluation.py
+│   ├── inference.py
+│   ├── interaction_model.py
+│   ├── losses.py
+│   ├── traj_para.py
+│   └── utils.py
+├── results
+│   ├── logs
+│   └── weights
+├── utils
+│   ├── args_loading.py
+│   ├── metrics.py
+│   ├── completion_buffer.py
+│   └── separation_buffer.py
+└── visualization_utils
+    ├── dict_utils.py
+    ├── dictionary.py
+    ├── extract_original_tv_info.py
+    └── map_vis_without_lanelet.py
+    
+- Main functions for training and testing are the python scripts in the root direction.
+- The folder ```cl_model``` contains the proposed H2C and compared CL baselines in experiments.
+- The folder ```traj_predictor``` includes the files to construct the trajectory prediction model.
+- Scripts for data pre-processing are provided in the folder ```cl_datastream```.
+
+## Training and Testing via the Bash File
 After adding the Executable Permissions to the provided bash file (_bash_training_and_test.sh_), you can directly run the training and testing with command:
 ```
 ./bash_training_and_test.sh
