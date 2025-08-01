@@ -92,3 +92,7 @@ After adding the Executable Permissions to the provided bash file (_bash_trainin
 ./bash_training_and_test.sh
 ```
 
+## Contact
+If you have any questions on of this study, please feel free to contact us:
+Yunlong Lin (jacklyl.bit@gmail.com  or  yunlonglin@bit.edu.cn)
+
