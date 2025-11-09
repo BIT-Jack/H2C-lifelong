@@ -12,12 +12,12 @@ def get_parser(parser):
 
 
 
-class Derppgssrev(nn.Module):
-    NAME = 'derppgssrev'
+class H2C(nn.Module):
+    NAME = 'h2c'
     COMPATIBILITY = ['domain-il']
 
     def __init__(self, backbone, loss, args):
-        super(Derppgssrev, self).__init__()
+        super(H2C, self).__init__()
         self.net = backbone
         self.loss = loss
         self.args = args
