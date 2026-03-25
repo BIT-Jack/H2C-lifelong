@@ -6,9 +6,9 @@ Official codes of paper **_H2C:Hippocampal Circuit-inspired Contiual Learning fo
 ## Original Dataset
 The experiments in this study are based on [INTERACTION dataset](https://interaction-dataset.com/).
 ## Processed Data
-- The processed data is available in [Google Drive Training and Test](https://drive.google.com/drive/folders/1roEeNQJFz777DbPEMf21R3j2BQdRKecp?usp=drive_link).
+- The processed data is available in [Google Drive-Training and Test](https://drive.google.com/drive/folders/1roEeNQJFz777DbPEMf21R3j2BQdRKecp?usp=drive_link).
 - Please download the processed data in the direction ``` ./cl_dataset/``` for running the experiments.
-- Original data of recorded predictions for visualization of the case study[Google Drive Case491](https://drive.google.com/drive/folders/1-Q7WZfYQMll5InsjaBEzuJDTwFMaPEp5?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto).
+- Original data of recorded predictions for visualization of the case study [Google Drive-Case491](https://drive.google.com/drive/folders/1-Q7WZfYQMll5InsjaBEzuJDTwFMaPEp5?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto).
 # Implementations 
 ## Enviroment
 1. System: The codes can be run in **Ubuntu 22.04 LTS**.
