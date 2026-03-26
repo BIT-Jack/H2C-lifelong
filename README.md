@@ -8,11 +8,7 @@ The experiments in this study are based on [INTERACTION dataset](https://interac
 ## Processed Data
 - The processed data is available in [Google Drive-Training and Test](https://drive.google.com/drive/folders/1roEeNQJFz777DbPEMf21R3j2BQdRKecp?usp=drive_link).
 - Please download the processed data in the direction ``` ./cl_dataset/``` for running the experiments.
-## Additional Reproducibility Support
-- Original data of recorded predictions for visualization of the case study [Google Drive-Case491](https://drive.google.com/drive/folders/1-Q7WZfYQMll5InsjaBEzuJDTwFMaPEp5?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto).
-  Download the original data in ```./logging/``` and please use the script ```traj_plot_case_study.py``` for figures.
-- We also provide a group of trained model weights of H2C in the filefolder ```./trained_weights/```.
-  The default setting refers to the default task order with buffer size 2000.
+
 # Implementations 
 ## Enviroment
 1. System: The codes can be run in **Ubuntu 22.04 LTS**.
@@ -95,6 +91,12 @@ After adding the Executable Permissions to the provided bash file (_bash_trainin
 ```
 ./bash_training_and_test.sh
 ```
+
+# Additional Reproducibility Support
+- Original data of recorded predictions for visualization of the case study [Google Drive-Case491](https://drive.google.com/drive/folders/1-Q7WZfYQMll5InsjaBEzuJDTwFMaPEp5?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto).
+  Download the original data in ```./logging/``` and please use the script ```traj_plot_case_study.py``` for figures.
+- We also provide a group of trained model weights of H2C in the filefolder ```./trained_weights/```.
+  The default setting refers to the default task order with buffer size 2,000.
 
 ## Contact
 If you have any questions on of this study, please feel free to contact us:
