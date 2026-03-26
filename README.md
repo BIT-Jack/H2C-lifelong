@@ -10,7 +10,9 @@ The experiments in this study are based on [INTERACTION dataset](https://interac
 - Please download the processed data in the direction ``` ./cl_dataset/``` for running the experiments.
 ## Reproducibility Support
 - Original data of recorded predictions for visualization of the case study [Google Drive-Case491](https://drive.google.com/drive/folders/1-Q7WZfYQMll5InsjaBEzuJDTwFMaPEp5?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto).
+  Download the original data in ```./logging/``` and please use the script ```traj_plot_case_study.py``` for figures.
 - We also provide a group of trained model weights of H2C in the filefolder ```./trained_weights/```.
+  The default setting refers to the default task order with buffer size 2000.
 # Implementations 
 ## Enviroment
 1. System: The codes can be run in **Ubuntu 22.04 LTS**.
