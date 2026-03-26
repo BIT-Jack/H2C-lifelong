@@ -8,7 +8,7 @@ The experiments in this study are based on [INTERACTION dataset](https://interac
 ## Processed Data
 - The processed data is available in [Google Drive-Training and Test](https://drive.google.com/drive/folders/1roEeNQJFz777DbPEMf21R3j2BQdRKecp?usp=drive_link).
 - Please download the processed data in the direction ``` ./cl_dataset/``` for running the experiments.
-## Reproducibility Support
+## Additional Reproducibility Support
 - Original data of recorded predictions for visualization of the case study [Google Drive-Case491](https://drive.google.com/drive/folders/1-Q7WZfYQMll5InsjaBEzuJDTwFMaPEp5?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto).
   Download the original data in ```./logging/``` and please use the script ```traj_plot_case_study.py``` for figures.
 - We also provide a group of trained model weights of H2C in the filefolder ```./trained_weights/```.
