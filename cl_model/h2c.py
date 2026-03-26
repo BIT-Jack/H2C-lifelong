@@ -24,6 +24,7 @@ class H2C(nn.Module):
         self.device = args.device
         self.transform = None
         self.opt = Adam(self.net.parameters(), lr=self.args.lr)
+        #since the buffer size denotes the total number of memory samples for a replay-based method, H2C uses buffer_size/2 for each buffer (when separation and completion buffers have the same size)
         self.buffer = Buffer(self.args.buffer_size/2, self.device, minibatch_size=8, model_name=self.NAME,model=self)
         self.buffer_r = Buffer_RSVR(self.args.buffer_size/2, self.device, self.NAME)
 
