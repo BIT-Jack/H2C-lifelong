@@ -24,8 +24,8 @@ class H2C(nn.Module):
         self.device = args.device
         self.transform = None
         self.opt = Adam(self.net.parameters(), lr=self.args.lr)
-        self.buffer = Buffer(self.args.buffer_size, self.device, minibatch_size=8, model_name=self.NAME,model=self)
-        self.buffer_r = Buffer_RSVR(self.args.buffer_size, self.device, self.NAME)
+        self.buffer = Buffer(self.args.buffer_size/2, self.device, minibatch_size=8, model_name=self.NAME,model=self)
+        self.buffer_r = Buffer_RSVR(self.args.buffer_size/2, self.device, self.NAME)
 
     #gss function get_grads
     def get_grads(self, inputs, labels):
