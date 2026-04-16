@@ -2,6 +2,8 @@
 # Introduction
 Official codes of paper **_H2C:Hippocampal Circuit-inspired Contiual Learning for Lifelong Trajectory Prediction in Autonomous Driving_**, which has been accepted by **_IEEE Transactions on Intelligent Transportation Systems（IEEE T-ITS）_**.
 
+[Early Access Paper](https://ieeexplore.ieee.org/document/11481451)
+
 # Dataset
 ## Original Dataset
 The experiments in this study are based on [INTERACTION dataset](https://interaction-dataset.com/).
