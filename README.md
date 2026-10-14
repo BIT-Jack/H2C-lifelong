@@ -100,6 +100,21 @@ After adding the Executable Permissions to the provided bash file (_bash_trainin
 - We also provide a group of trained model weights of H2C in the filefolder ```./trained_weights/```.
   The default setting refers to the default task order with buffer size 2,000.
 
+# Citation
+```
+@ARTICLE{11481451,
+  author={Lin, Yunlong and Li, Zirui and Du, Guodong and Zhao, Xiaocong and Gong, Cheng and Wang, Xinwei and Lu, Chao and Gong, Jianwei},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={H2C: Hippocampal Circuit-Inspired Continual Learning for Lifelong Trajectory Prediction in Autonomous Driving}, 
+  year={2026},
+  volume={27},
+  number={8},
+  pages={9834-9851},
+  keywords={Aerospace engineering;Feeds;Circuits;MIMICs;Central Processing Unit;Circuits and systems;Millimeter wave integrated circuits;Monolithic integrated circuits;TV;Electronic mail;Continual learning;intelligent transportation systems;autonomous vehicles;trajectory prediction;neuroscience inspired-machine learning},
+  doi={10.1109/TITS.2026.3679635}}
+
+```
+
 ## Contact
 If you have any questions on of this study, please feel free to contact us:
 Yunlong Lin (jacklyl.bit@gmail.com  or  yunlonglin@bit.edu.cn)
